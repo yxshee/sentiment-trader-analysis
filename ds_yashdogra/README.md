@@ -25,6 +25,14 @@ Explore how trading behavior (profitability, risk, volume, leverage) aligns with
 - **Categories**: Extreme Fear, Fear, Neutral, Greed, Extreme Greed
 - **Format**: Daily sentiment classifications
 
+## 🔗 Dataset Links
+
+1. Historical Trader Data:
+   [Google Drive Link](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
+
+2. Fear & Greed Index:
+   [Google Drive Link](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
+
 ## 🔍 Analysis Components
 
 ### 1. Data Processing
@@ -88,7 +96,7 @@ gdown>=4.0.0
 
 ### Usage
 1. **Google Colab** (Recommended): [Open notebook](https://colab.research.google.com/drive/1IGRMeFVS5X_rmKHFThHw7MM8gvQyS8A9?usp=sharing)
-2. **Local**: `jupyter notebook notebook.ipynb`
+2. **Local**: `notebook.ipynb`
 
 Data is automatically downloaded from Google Drive within the notebook.
 
@@ -173,3 +181,55 @@ This analysis forms part of a comprehensive trading strategy research project. T
 **Author**: Yash Dogra  
 **Date**: August 2025  
 **Assignment**: Web3 Trading Team Data Science Analysis
+
+# Data Science Assignment Instructions – Web3 Trading Team
+
+## 📂 Standardized Submission Format
+
+All candidate submissions must strictly follow this structure. Non-compliance will result in rejection of the application.
+
+```
+ds_yashdogra/
+├── notebook.ipynb  # All work done in Google Colab
+├── notebook_2.ipynb  # (Optional) Additional Colab notebook if needed
+├── csv_files/       # Store all CSVs or data outputs here
+│   └── *.csv        # Intermediate or processed data files
+├── outputs/         # Store all visual outputs, graphs, or charts here
+│   └── *.png/*.jpg  # Image results of EDA, charts, etc.
+├── ds_report.pdf    # Final summarized insights and explanations
+└── README.md        # (Optional but encouraged) Setup instructions, notes
+```
+
+- All code must be shared as **Google Colab links** with access set to 'Anyone with the link can view'.
+- The exact same structure must be updated in the GitHub repository as well.
+- Failing to comply with any of the above instructions will result in immediate rejection.
+
+## 📂 Assignment Overview
+
+You are expected to explore and analyze the relationship between trader behavior and market sentiment using two key datasets.
+
+## 📂 Datasets
+
+1. **Bitcoin Market Sentiment Dataset**
+   - Columns: `Date`, `Classification` (Fear / Greed)
+
+2. **Historical Trader Data from Hyperliquid**
+   - Columns include: `account`, `symbol`, `execution price`, `size`, `side`, `time`, `start position`, `event`, `closedPnL`, `leverage`, etc.
+
+## 📂 Objective
+
+Analyze how trading behavior (profitability, risk, volume, leverage) aligns or diverges from overall market sentiment (fear vs greed). Identify hidden trends or signals that could influence smarter trading strategies.
+
+## 📂 Dataset Links
+
+1. Historical Trader Data:
+   https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing
+
+2. Fear & Greed Index:
+   https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing
+
+## 📂 Apply Now!
+
+This assignment is the first step in our hiring process. Top-performing candidates will be shortlisted for an interview.
+
+Apply now and take the next step in your data science career with one of the most innovative teams in Web3 trading!
