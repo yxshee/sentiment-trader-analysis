@@ -18,12 +18,14 @@ Explore how trading behavior (profitability, risk, volume, leverage) aligns with
 - **Columns**: Account, Symbol, Execution Price, Size (Tokens & USD), Side, Timestamp, Closed PnL, Fee, Leverage
 - **Coverage**: Trade-level records with complete transaction details
 - **Format**: CSV with timestamps in IST
+- **Download**: [Hyperliquid Trading Data CSV](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
 
 ### 2. Bitcoin Fear & Greed Index
 - **Source**: Crypto Fear & Greed Index
 - **Columns**: Date, Classification
 - **Categories**: Extreme Fear, Fear, Neutral, Greed, Extreme Greed
 - **Format**: Daily sentiment classifications
+- **Download**: [Fear & Greed Index CSV](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc-mnrYv__nhSf/view?usp=sharing)
 
 ## 🔍 Analysis Components
 
