@@ -44,7 +44,7 @@ Explore how trading behavior (profitability, risk, volume, leverage) aligns with
 - Hourly PnL patterns and timing analysis
 - Risk distribution and correlation studies
 
-## 📈 Results & Charts
+## 📈 Results
 
 Below are the key figures generated from the analysis. Each image is linked from the `outputs/` folder and includes a brief interpretation tip to make it easier to act on the insight.
 
