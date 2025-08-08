@@ -12,8 +12,8 @@ An overview of the relationship between cryptocurrency trader behavior and Bitco
 - [Google Colab Notebook](https://colab.research.google.com/drive/1IGRMeFVS5X_rmKHFThHw7MM8gvQyS8A9?usp=sharing)
 
 ## 📊 Datasets
-- [Hyperliquid Trading Data (CSV)](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
-- [Bitcoin Fear & Greed Index (CSV)](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc-mnrYv__nhSf/view?usp=sharing)
+- [Hyperliquid Trading Data](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
+- [Bitcoin Fear & Greed Index](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc-mnrYv__nhSf/view?usp=sharing)
 
 ## 🛠️ Setup & Usage
 1. Clone the repo  
