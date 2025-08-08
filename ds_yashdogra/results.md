@@ -2,7 +2,7 @@
 
 ## Executive Summary of Quantitative Results
 
-This document supplements the comprehensive `ds_report.docx` with specific quantitative findings from the sentiment-trader analysis project.
+This supplements the comprehensive report with specific quantitative findings from the sentiment-trader analysis project.
 
 ### Dataset Overview
 - **Total Trades Analyzed**: 211,226 individual transactions
