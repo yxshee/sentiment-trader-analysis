@@ -50,27 +50,27 @@ Below are the key figures generated from the analysis. Each image is linked from
 
 ### Figure 1 — Daily Sentiment Mix
 ![Daily Classification Counts](./outputs/Daily%20Classification%20Counts.png)<br><br>
-Context: Class balance across the study window. Heavier “Fear” or “Greed” regimes affect both backtest comparability and statistical power; use these counts when weighting or normalizing performance across regimes.
+<br> <br>: Class balance across the study window. Heavier “Fear” or “Greed” regimes affect both backtest comparability and statistical power; use these counts when weighting or normalizing performance across regimes.
 
 ### Figure 2 — Feature Correlation Matrix
 ![Feature Correlation Matrix](./outputs/Feature%20Correlation%20Matrix.png)<br><br>
-Context: Pairwise correlations between engineered features. Note any high-correlation clusters (e.g., token size vs USD notionals) that can cause multicollinearity in models and overstate feature importance.
+<br> <br>: Pairwise correlations between engineered features. Note any high-correlation clusters (e.g., token size vs USD notionals) that can cause multicollinearity in models and overstate feature importance.
 
 ### Figure 3 — Hourly Avg Closed PnL by Sentiment
 ![Hourly Avg Closed PnL by Sentiment](./outputs/Hourly%20Avg%20Closed%20PnL%20by%20Sentiment.png)<br><br>
-Context: Intraday PnL patterns segmented by sentiment class. Look for hour blocks where “Greed” outperforms baseline and periods where “Fear” drags PnL—useful for timing filters and session-based risk throttling.
+<br> <br>: Intraday PnL patterns segmented by sentiment class. Look for hour blocks where “Greed” outperforms baseline and periods where “Fear” drags PnL—useful for timing filters and session-based risk throttling.
 
 ### Figure 4 — PnL Distribution by Sentiment
 ![PnL Distribution by Sentiment](./outputs/PnL%20Distribution%20by%20Sentiment.png) <br><br>
-Context: Per-trade PnL distribution and tail behavior by regime. Skew and kurtosis differences indicate varying downside risk; “Fear” often shows fatter left tails—tighten stops or reduce size accordingly.
+<br> <br>: Per-trade PnL distribution and tail behavior by regime. Skew and kurtosis differences indicate varying downside risk; “Fear” often shows fatter left tails—tighten stops or reduce size accordingly.
 
 ### Figure 5 — PnL vs Trade Size by Sentiment
 ![PnL vs Trade Size by Sentiment](./outputs/PnL%20vs%20Trade%20Size%20by%20Sentiment.png)<br><br>
-Context: Relationship between position size and realized PnL. Watch for variance expansion with larger sizes and any non-linear payoffs; consider cap/scale rules that are regime-aware.
+<br> <br>: Relationship between position size and realized PnL. Watch for variance expansion with larger sizes and any non-linear payoffs; consider cap/scale rules that are regime-aware.
 
 ### Figure 6 — Symbols by Total PnL
 ![Symbols by Total PnL](./outputs/Symbols%20by%20Total%20PnL.png)<br><br>
-Context: Concentration of profitability across symbols. Use this to guide symbol selection, risk budgets, and to check whether results depend on a few outliers versus broad-based performance.
+<br> <br>: Concentration of profitability across symbols. Use this to guide symbol selection, risk budgets, and to check whether results depend on a few outliers versus broad-based performance.
 
 ## 🎯 Key Findings
 
@@ -160,27 +160,27 @@ Below are the key figures generated from the analysis. Each image is linked from
 
 ### Figure 1 — Daily Sentiment Mix
 ![Daily Classification Counts](./outputs/Daily%20Classification%20Counts.png)
-Context: Class balance across the study window. Heavier “Fear” or “Greed” regimes affect both backtest comparability and statistical power; use these counts when weighting or normalizing performance across regimes.
+<br> <br>: Class balance across the study window. Heavier “Fear” or “Greed” regimes affect both backtest comparability and statistical power; use these counts when weighting or normalizing performance across regimes.
 
 ### Figure 2 — Feature Correlation Matrix
 ![Feature Correlation Matrix](./outputs/Feature%20Correlation%20Matrix.png)
-Context: Pairwise correlations between engineered features. Note any high-correlation clusters (e.g., token size vs USD notionals) that can cause multicollinearity in models and overstate feature importance.
+<br> <br>: Pairwise correlations between engineered features. Note any high-correlation clusters (e.g., token size vs USD notionals) that can cause multicollinearity in models and overstate feature importance.
 
 ### Figure 3 — Hourly Avg Closed PnL by Sentiment
 ![Hourly Avg Closed PnL by Sentiment](./outputs/Hourly%20Avg%20Closed%20PnL%20by%20Sentiment.png)
-Context: Intraday PnL patterns segmented by sentiment class. Look for hour blocks where “Greed” outperforms baseline and periods where “Fear” drags PnL—useful for timing filters and session-based risk throttling.
+<br> <br>: Intraday PnL patterns segmented by sentiment class. Look for hour blocks where “Greed” outperforms baseline and periods where “Fear” drags PnL—useful for timing filters and session-based risk throttling.
 
 ### Figure 4 — PnL Distribution by Sentiment
 ![PnL Distribution by Sentiment](./outputs/PnL%20Distribution%20by%20Sentiment.png)
-Context: Per-trade PnL distribution and tail behavior by regime. Skew and kurtosis differences indicate varying downside risk; “Fear” often shows fatter left tails—tighten stops or reduce size accordingly.
+<br> <br>: Per-trade PnL distribution and tail behavior by regime. Skew and kurtosis differences indicate varying downside risk; “Fear” often shows fatter left tails—tighten stops or reduce size accordingly.
 
 ### Figure 5 — PnL vs Trade Size by Sentiment
 ![PnL vs Trade Size by Sentiment](./outputs/PnL%20vs%20Trade%20Size%20by%20Sentiment.png)
-Context: Relationship between position size and realized PnL. Watch for variance expansion with larger sizes and any non-linear payoffs; consider cap/scale rules that are regime-aware.
+<br> <br>: Relationship between position size and realized PnL. Watch for variance expansion with larger sizes and any non-linear payoffs; consider cap/scale rules that are regime-aware.
 
 ### Figure 6 — Symbols by Total PnL
 ![Symbols by Total PnL](./outputs/Symbols%20by%20Total%20PnL.png)
-Context: Concentration of profitability across symbols. Use this to guide symbol selection, risk budgets, and to check whether results depend on a few outliers versus broad-based performance.
+<br> <br>: Concentration of profitability across symbols. Use this to guide symbol selection, risk budgets, and to check whether results depend on a few outliers versus broad-based performance.
 
 ## 🔎 Key Findings
 
