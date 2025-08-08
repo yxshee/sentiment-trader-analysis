@@ -11,6 +11,7 @@ Explore how trading behavior (profitability, risk, volume, leverage) aligns with
 📓 **[Open in Google Colab](https://colab.research.google.com/drive/1IGRMeFVS5X_rmKHFThHw7MM8gvQyS8A9?usp=sharing)**
 
 
+
 ## 📊 Datasets
 
 ### 1. Hyperliquid Trading Data
@@ -20,12 +21,19 @@ Explore how trading behavior (profitability, risk, volume, leverage) aligns with
 - **Format**: CSV with timestamps in IST
 - **Download**: [Hyperliquid Trading Data CSV](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
 
+<img width="49%" height="471" alt="image" src="https://github.com/user-attachments/assets/b9e53e4b-1ab8-4960-a3c7-751502386374" />
+
+
 ### 2. Bitcoin Fear & Greed Index
 - **Source**: Crypto Fear & Greed Index
 - **Columns**: Date, Classification
 - **Categories**: Extreme Fear, Fear, Neutral, Greed, Extreme Greed
 - **Format**: Daily sentiment classifications
 - **Download**: [Fear & Greed Index CSV](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc-mnrYv__nhSf/view?usp=sharing)
+
+  
+
+
 
 ## 🔍 Analysis Components
 
